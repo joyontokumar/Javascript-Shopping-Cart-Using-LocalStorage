@@ -192,7 +192,7 @@ function updateitem(id) {
     update[i].addEventListener("click", function(e) {
       var row = this.closest("[data-row]");
       var rid = row.getAttribute("data-row");
-      row.style.backgroundColor = "Yellow";
+      row.style.backgroundColor = "orange";
       var td = row.firstElementChild;
       console.log(td);
       var input = document.createElement("input");
